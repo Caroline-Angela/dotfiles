@@ -1,0 +1,13 @@
+def circle_area(radius)
+#formula -> area = pi*r*r
+# if the radius is negative
+if radius.negative
+  return 0
+else
+  return 3.14*radius*radius
+end
+# return 0
+# otherwise
+#puts circle_area(1)
+
+puts cirlce_area(-70)
